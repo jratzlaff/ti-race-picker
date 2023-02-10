@@ -46,5 +46,6 @@ for i in range(num_players):
     print(f'{players[i]}:\t{options[i]}')
 
 extra_options = factions[num_options * num_players:]
-print(f'Extra:\t{extra_options}')
+if extra_options:
+    print(f'Extra:\t{extra_options}')
 
